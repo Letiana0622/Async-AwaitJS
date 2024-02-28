@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
+    "jest": "jest --detectOpenHandles",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
